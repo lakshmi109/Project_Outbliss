@@ -8,8 +8,7 @@
 }
 .body{
     background-color: #F3F2C8;
-    max-width: 1100px;
-    margin:2.875rem auto;
+    padding: 30px;
     font-size: var(--primary-font);
 }
 .navLeft a{
@@ -29,6 +28,7 @@
     width: min(50vw, 550px);
     display: flex;
     justify-content: space-around;
+    transition: all .3s ease 0s;
 }
 .navLeft a:hover{
     color:black;
