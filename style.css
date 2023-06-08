@@ -6,7 +6,7 @@
     --colour:rgba(0,0,0,0.5);
     font-family: 'Poppins', sans-serif;
 }
-body{
+.body{
     background-color: #F3F2C8;
     max-width: 1100px;
     margin:2.875rem auto;
