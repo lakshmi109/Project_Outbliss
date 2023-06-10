@@ -7,7 +7,7 @@
     vertical-align: middle;
   }
   input,
-  button {
+  .boxbutton {
     color: black;
     padding: 0;
     margin: 0;
@@ -42,7 +42,7 @@
     width: 1px;
   }
   
-  button {
+  .boxbutton {
     position: relative;
     display: block;
     height: 2.5rem; 
@@ -63,7 +63,7 @@
     transition: 0.5s ease all;
   }
   
-  button span {
+  .boxbutton span {
     position: absolute;
     top: 28px;
     left: 30px;
@@ -76,8 +76,8 @@
     transition: 0.5s ease all;
   }
   
-  button span:before,
-  button span:after {
+  .boxbutton span:before,
+  .boxbutton span:after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -108,17 +108,17 @@
     transform: rotateZ(0);
   }
   
-  #s-cover:hover button span:before {
+  #s-cover:hover .boxbutton span:before {
     bottom: 8px;
     transform: rotateZ(52deg);
   }
   
-  #s-cover:hover button span:after {
+  #s-cover:hover .boxbutton span:after {
     bottom: -8px;
     transform: rotateZ(-52deg);
   }
-  #s-cover:hover button span:before,
-  #s-cover:hover button span:after {
+  #s-cover:hover .boxbutton span:before,
+  #s-cover:hover .boxbutton span:after {
     right: -6px;
     width: 25px;
     background-color: #FE5C46;

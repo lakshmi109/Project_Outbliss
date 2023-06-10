@@ -8,7 +8,7 @@ export default class Box extends Component {
           <div class="tb">
             <div class="td"><input type="text" placeholder="Search" required/></div>
             <div class="td" id="s-cover">
-              <button type="submit">
+              <button className='boxbutton' type="submit">
                 <div id="s-circle"></div>
                 <span></span>
               </button>
