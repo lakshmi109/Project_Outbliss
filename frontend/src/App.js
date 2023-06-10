@@ -7,6 +7,7 @@ import SearchBox from './components/searchBox/SearchBox';
 import BestSelling from './components/bestselling/BestSelling';
 import Aboutus from './components/aboutus/Aboutus';
 import Testimonialbox from './components/testimonialbox/Testimonialbox';
+import Category from './components/category/Category';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SearchBox/>
       <BestSelling/>
       <Aboutus/>
+      <Category/>
       <Testimonialbox/>
       <Footer/>
     </>
