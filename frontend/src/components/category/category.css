@@ -53,6 +53,7 @@
   padding-bottom: 50px;
 }
 .categorydiscrp{
+  margin-top: 30px;
   font-weight: 500;
   font-size: var(--category-para);
   color: var(--category--grey);
@@ -190,7 +191,7 @@
 
 /* for 768px */
 @media(max-width: 768px){
-  .categorycardsbox .uppercards{
+  .categorycardsbox .uppercards{ 
     top: 0px;
   }
 

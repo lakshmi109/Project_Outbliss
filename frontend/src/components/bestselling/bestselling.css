@@ -25,19 +25,21 @@
 
 .bstextcontainer p{
     font-size: var(--bs-para);
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     color: var(--bs--grey);
     
 }
 
 .cta {
+    text-decoration: none;
     position: relative;
     margin: auto;
     padding: 12px 18px;
     transition: all 0.2s ease;
     border: none;
     background:none;
-   cursor: pointer;
+    cursor: pointer;
    }
    
    .cta:before {
