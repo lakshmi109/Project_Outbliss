@@ -12,13 +12,13 @@ export default function BestSelling() {
                 <h2>Best selling Cards</h2>
                 <p>Get posters for all the festivals in a budget  that is lesser than your mobile bill</p>
                 
-                <button class="cta">
+                <a href='/' class="cta">
                     <span>See All</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
-                </button>
+                </a>
                 
             </div>
 

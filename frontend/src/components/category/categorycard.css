@@ -11,13 +11,18 @@
 }
 
 .categorycard{
+    display: block;
     background-color: var(--categorycard--theme1);
     border-radius: 15px;
     height: 450px;
     width: 350px;
     object-fit: cover;
-    
+    transition: all 0.3s ease;
 }
+.categorycard:hover{
+    transform: scale(1.05);
+}
+
 .categorycardimg{
     border-radius: 15px;
     height: 450px;

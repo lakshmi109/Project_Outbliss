@@ -31,13 +31,14 @@
 }
 
 .cta {
+    text-decoration: none;
     position: relative;
     margin: auto;
     padding: 12px 18px;
     transition: all 0.2s ease;
     border: none;
     background:none;
-   cursor: pointer;
+    cursor: pointer;
    }
    
    .cta:before {
