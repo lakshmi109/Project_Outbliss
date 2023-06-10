@@ -25,7 +25,8 @@
 
 .bstextcontainer p{
     font-size: var(--bs-para);
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     color: var(--bs--grey);
     
 }
