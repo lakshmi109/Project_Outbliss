@@ -1,24 +1,22 @@
-
 // import { NativeBuffer } from 'mongoose';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './Home';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import SearchBox from './components/searchBox/SearchBox';
-import BestSelling from './components/bestselling/BestSelling';
-import Aboutus from './components/aboutus/Aboutus';
-import Testimonialbox from './components/testimonialbox/Testimonialbox';
-import Category from './components/category/Category';
+import Contactus from './components/contactuspage/Contactus';
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <SearchBox/>
-      <BestSelling/>
-      <Aboutus/>
-      <Category/>
-      <Testimonialbox/>
-      <Footer/>
+      <Router>
+          <Navbar/>
+          <Routes>
+            <Route exact path="/" element={<Home/>} />
+            <Route exact path="/contact" element={<Contactus/>} />
+          </Routes>
+          <Footer/>
+      </Router>
     </>
   );
 }
