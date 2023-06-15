@@ -5,6 +5,7 @@ import Home from './Home';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Contactus from './components/contactuspage/Contactus';
+import Cartpage from './components/cartpage/Cartpage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home/>} />
             <Route exact path="/contact" element={<Contactus/>} />
+            <Route exact path="/cart" element={<Cartpage/>} />
           </Routes>
           <Footer/>
       </Router>

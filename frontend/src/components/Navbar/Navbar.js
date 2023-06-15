@@ -20,7 +20,7 @@ class Navbar extends Component {
                         <li>
                             <ul className="navRight">
                                 <li><a href="/"><img src={Person} alt="Person" /></a></li>
-                                <li><a href="/"><img src={ShoppingCart} alt="Shopping Cart" /></a></li>
+                                <li><a href="/cart"><img src={ShoppingCart} alt="Shopping Cart" /></a></li>
                                 <li><a href="/"><img src={Hamburger} alt="Hamburger" /></a></li>
                             </ul>
                         </li>
