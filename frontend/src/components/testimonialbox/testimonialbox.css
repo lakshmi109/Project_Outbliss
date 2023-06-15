@@ -17,6 +17,7 @@
 .testi
 {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 /* .testi > *
@@ -24,3 +25,18 @@
     padding-right: 2rem;
 } */
 
+
+
+
+
+@media(max-width:800px){
+    .testimonialbox{
+        padding: 40px 10px 200px 10px;
+    }
+
+    .testimonialbox h1{
+        width: 100%;
+        font-size: 36px;
+        padding-bottom: 0;
+    }
+}
