@@ -42,3 +42,13 @@
   margin: 0;
   padding-inline: 1rem;
 }
+
+
+
+
+
+@media(max-width:800px){
+    .testimonialapostrophe{
+      font-size: 56px;
+    }
+}

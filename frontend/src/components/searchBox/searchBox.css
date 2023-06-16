@@ -44,3 +44,21 @@
 {
     padding-top: 2rem;
 }
+
+
+
+
+@media(max-width: 800px){
+    .searchBoxLeft{
+        margin: 0px 10px;
+        padding: 40px 20px;
+    }
+
+    .searchBoxHeading{
+        font-size: 36px;
+    }
+
+    .numbers p{
+        font-size: 27px;
+    }
+}

@@ -14,13 +14,13 @@ class Navbar extends Component {
                             <ul className="navLeft">
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/">Products</a></li>
-                                <li><a href="/">Contact</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul>
                         </li>
                         <li>
                             <ul className="navRight">
                                 <li><a href="/"><img src={Person} alt="Person" /></a></li>
-                                <li><a href="/"><img src={ShoppingCart} alt="Shopping Cart" /></a></li>
+                                <li><a href="/cart"><img src={ShoppingCart} alt="Shopping Cart" /></a></li>
                                 <li><a href="/"><img src={Hamburger} alt="Hamburger" /></a></li>
                             </ul>
                         </li>

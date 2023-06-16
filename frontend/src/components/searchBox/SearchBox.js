@@ -15,6 +15,7 @@ export default class SearchBox extends Component {
                             <p>|</p>
                             <p>100+ Customers</p>
                         </div>
+                        
                     </p>
                     <div className='box'>
                         <Box/>
