@@ -32,7 +32,7 @@ export default function Category() {
                     </span>
 
                     <div className="btn-conteiner">
-                        <a className ="btn-content" href="/">
+                        <a className ="btn-content" href="/product">
                             <span className ="btn-title">Explore</span>
                             <span className ="icon-arrow">
                                 <svg className='categoryarrow1' viewBox="0 0 66 43" version="1.1">
