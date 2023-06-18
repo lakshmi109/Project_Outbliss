@@ -1,0 +1,155 @@
+:root{
+    --productspecific--theme1: #F3F2C8;
+    --productspecific--theme2: #FE5C46;
+    --productspecific--grey: rgba(30,30,30,0.5);
+    --productspecific-para: 12px;
+    --productspecific-heading: 46px;
+    --productspecific-price: 18px;
+}
+
+.productspecificcontainer{
+    background-color: var(--productspecific--theme1);
+    padding: 70px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productspecificimgbox{
+    flex-basis: 60%;
+    display: flex;
+    object-fit: cover;
+}
+
+.prductspecificimg{
+    height: auto;
+    width: 100%;
+}
+
+.productspecificdiscrp{
+    flex-basis: 35%;
+}
+
+.productspecificdiscrpspan1{
+    font-size: var(--productspecific-para);
+    text-transform: uppercase;
+    color: var(--productspecific--grey);
+    font-weight: 600;
+}
+
+.productspecificdiscrph1{
+    margin: 10px 0px;
+    font-size: var(--productspecific-heading);
+    font-weight: 500;
+}
+
+
+.productspecificprice{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.productspecificprice h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--productspecific-price);
+    font-weight: 500;
+}
+
+.productspecificoldprice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: var(--productspecific--grey);
+    padding-right: 5px;
+    margin-right: 10px;
+}
+.productspecificoldprice::after{
+    position: absolute;
+    content: "";
+    height: 1.5px;
+    width: 100%;
+    background-color: black;
+    top: 42%;
+}
+.productspecificoldprice h5{
+    font-size: 16px;
+}
+
+.saleshow{
+    margin-left: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 30px;
+    background-color: var(--productspecific--theme2);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+
+.productspecificquantitybox{
+
+}
+
+.productspecificquantitybox h3{
+    font-size: 15px;
+    color: rgba(30,30,30,0.7);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.productspecificbuttonscontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.productspecificcartbutton{
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: transparent;
+    border: 1px solid black;
+    position: relative;
+    height: 40px;
+    width: 190px;
+}
+.productspecificcartbutton button{
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    background-color: var(--productspecific--theme2);
+    color: white;
+}
+
+
+.productspecificquantitychange{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: transparent;
+    border: 1px solid black;
+    position: relative;
+    height: 40px;
+    width: 170px;
+}
+.productspecificquantitychange button{
+    background: transparent;
+    border: none;
+    font-size: 25px;
+}

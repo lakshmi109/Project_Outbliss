@@ -6,6 +6,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Contactus from './components/contactuspage/Contactus';
 import Cartpage from './components/cartpage/Cartpage';
+import Productspecpg from './components/productspecificpage/Productspecpg';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route exact path="/" element={<Home/>} />
             <Route exact path="/contact" element={<Contactus/>} />
             <Route exact path="/cart" element={<Cartpage/>} />
+            <Route exact path="/product" element={<Productspecpg/>} />
           </Routes>
           <Footer/>
       </Router>
